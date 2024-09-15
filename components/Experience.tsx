@@ -1,5 +1,8 @@
-import { workExperience } from '@/data'
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
+
+import { workExperience } from '@/data'
+
 import { Button } from './ui/MovingBorders'
 
 const Experience = () => {
@@ -26,7 +29,9 @@ const Experience = () => {
       {card.title}
 
     </h1>
-    <p className='text-start text-white-100 mt-3 font-semibold '>{card.desc}</p>
+    <p className='text-start text-white-100 mt-3 font-semibold '>{card.desc}
+
+    </p>
   </div>
 </div>
             </Button>

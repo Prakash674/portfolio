@@ -1,6 +1,5 @@
-"use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 

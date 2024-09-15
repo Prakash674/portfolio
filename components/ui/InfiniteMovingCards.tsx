@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -75,7 +77,7 @@ export const InfiniteMovingCards = ({
       className={cn(
         "scroller relative z-20 w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
-      )}
+      )}  
     >
       <ul
         ref={scrollerRef}

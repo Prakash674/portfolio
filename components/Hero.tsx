@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
