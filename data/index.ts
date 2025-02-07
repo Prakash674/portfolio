@@ -1,4 +1,3 @@
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -30,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -50,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Carbon Emission calculator",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -108,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with [Your Name] was a game-changer for our business. He took our outdated website and turned it into a sleek, high-performing platform. The responsiveness and smooth user experience have significantly boosted our conversions. Highly recommended!",
+    name: "James Carter",
+    title: "Founder of Carter Consulting",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I needed a custom e-commerce website, and [Your Name] delivered beyond my expectations. From seamless API integration to pixel-perfect UI, every detail was handled with care. The site is fast, mobile-friendly, and exactly what I envisioned. Will definitely hire again!",
+    name: "Sarah Thompson",
+    title: "E-commerce Store Owner",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From the very first meeting, [Your Name] understood our vision and executed it flawlessly. His knowledge of React and Node.js is outstanding. Our internal dashboard is now much more efficient, saving us hours of manual work every week!",
+    name: "David Nguyen",
+    title: "CEO of TechNova Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had a tight deadline for a marketing campaign, and [Your Name] delivered the landing page ahead of schedule! The animations, responsiveness, and speed optimization were spot on. If you need a web developer who truly understands business needs, look no further!",
+    name: "Lisa Rodriguez",
+    title: "Marketing Director at BrightMedia",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We were struggling with our fintech platform's UI/UX, but [Your Name] completely transformed it. His expertise in frontend development and API integration made everything seamless. Now, our users love the experience, and engagement has increased dramatically!",
+    name: "Ahmed Ali",
+    title: "Startup Founder, FinTechX",
   },
 ];
 
@@ -181,7 +180,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Associate Software Developer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -206,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Prakash674",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/PrakashK95439",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/prakashk9572/",
   },
 ];
