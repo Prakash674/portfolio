@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.2",
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
+    "@tabler/icons-react": "^3.31.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
     "mini-svg-data-uri": "^1.4.4",
+    "motion": "^12.5.0",
     "next": "14.2.8",
     "next-themes": "^0.3.0",
     "react": "^18",

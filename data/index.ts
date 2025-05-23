@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: 'onion-Layer',
-    des: 'Onion Layer is a decentralized application that allows users to buy presale tokens.',
-    img: './onionlayer.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://onion-layer.vercel.app/',
+    title: 'Playrz -a fantasy sports',
+    des: 'A blockchain-based fantasy app combines fantasy sports with decentralized technology, enabling transparent, secure gameplay. Users own player assets as NFTs and earn crypto rewards based on real-world performance. Smart contracts manage scoring, rewards, and governance without a central authority',
+    img: '/playrz.png',
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+    link: 'https://app.playrz.io/',
   },
   {
     id: 2,
@@ -84,16 +84,17 @@ export const projects = [
     des: 'A web app that calculates your carbon footprint and suggests ways to reduce it. Built with React, Tailwind CSS, and Chart.js.',
     img: '/Climate-Mitigate.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://cm-v2.onrender.com/login',
+    link: 'https://cm-v2.onrender.com/',
   },
   {
     id: 3,
-    title: 'Green Origin',
-    des: `From Farm to Fork - Traceability Made Easy
-Discover a new level of transparency and efficiency for agriculture in Mauritius. Our platform leverages blockchain technology to provide real-time traceability from farm to fork, ensuring the authenticity and quality of your produce. Whether you're a farmer, distributor, or retailer, our tool connects all players in the supply chain, enhancing trust and simplifying compliance. Join us in making our local agricultural supply chain more transparent and accessible to everyone.`,
-    img: './green-Origin.png',
+    title: 'Philblocks-an edtech Platform',
+    des: `
+PhilBlocks is an edtech platform that uses blockchain to streamline and secure school management. It automates assessments, enhances parent-teacher communication, and improves administrative efficiency. Real-time dashboards keep parents informed. The platform promotes transparency and personalized learning.
+`,
+    img: './philblocks.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://www.greenorigin.org/',
+    link: 'https://philblocks.com/',
   },
   {
     id: 4,
@@ -101,7 +102,16 @@ Discover a new level of transparency and efficiency for agriculture in Mauritius
     des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
     img: '/p4.svg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone',
+    link: 'https://apple-landing-page-eight.vercel.app/',
+  },
+
+  {
+    id: 5,
+    title: 'onion-Layer',
+    des: 'Onion Layer is a decentralized application that allows users to buy presale tokens.',
+    img: './onionlayer.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+    link: 'https://onion-layer.vercel.app/',
   },
 ];
 
@@ -181,7 +191,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: 'Web 3 Developer',
+    title: 'Full Stack Web 3 Developer',
     desc: 'Building Dapp for a decentralized application that allows users to buy presale tokens.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
